@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amritanshu Kumar — Portfolio</title>
+  <link rel="icon" href="assets/Portfolio.png" type="image/x-icon">
+  <meta name="description" content="Aspiring Graphic Designer & Front-end Creator - Portfolio of Amritanshu Kumar.">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="logo" href="#top">Amritanshu<span> Kumar</span></a>
+      <nav class="nav" id="nav">
+        <a href="#about">Journey</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="accent">Amritanshu&nbsp;Kumar</span></h1>
+        <p class="lead">Aspiring Graphic Designer & Front-end Creator</p>
+        <p class="info">Designed and developed frontend of 3+ websites</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-outline"><i class="fa-solid fa-arrow-down-long"></i> View Projects</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/profile.jpg" alt="Amritanshu Kumar">
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>My Journey</h2>
+      <div class="journey-text">
+        <p>
+          Since childhood, I’ve always been drawn toward creativity — whether it was art, sketching, or experimenting
+          with new ideas. That passion for design and expression has always stayed with me, even as I explored
+          different fields of study. Over time, I developed a strong interest in technology, which led me to become
+          a frontend developer — where I realized how creativity and logic can come together beautifully in design.
+        </p>
+        <p>
+          Through my academic journey, I’ve continued to apply my artistic spirit in projects and interfaces I build.
+          Now, I’m eager to grow further as a <strong>Graphic Designer</strong>, combining my technical foundation with
+          my
+          love for visuals to create meaningful, user-centered designs.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Education</h3>
+            <p><strong>BCA</strong> – Amity University Patna (2021 - 2024)</p>
+            <p><strong>MCA</strong> – Lovely Professional University (2024 - Present)</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <h3>Projects</h3>
+            <p><strong>FriendZone</strong> – Frontend Designer (Jan 2024 - Mar 2024)</p>
+            <p><strong>ThreatScope</strong> – Log Analysis Tool (Feb 2024 - Apr 2025)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills container">
+      <h2>Core Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-card"><i class="fa-solid fa-lightbulb"></i> Creativity</div>
+        <div class="skill-card"><i class="fa-solid fa-font"></i> Typography</div>
+        <div class="skill-card"><i class="fa-solid fa-laptop-code"></i> Responsive Design</div>
+        <div class="skill-card"><i class="fa-solid fa-cubes"></i> UI/UX Design</div>
+        <div class="skill-card"><i class="fa-solid fa-palette"></i> Colour Theory</div>
+      </div>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h2>Projects</h2>
+      <div class="project-item">
+        <div class="project-image carousel">
+          <div class="carousel-images">
+            <img src="assets/Friendzone1.png" alt="FriendZone Image 1">
+            <img src="assets/Friendzone2.png" alt="FriendZone Image 2">
+            <img src="assets/Friendzone3.png" alt="FriendZone Image 3">
+          </div>
+          <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="project-desc">
+          <h3>FriendZone</h3>
+          <p>FriendZone is a social networking interface designed with a minimalist and user-centric approach. The
+            platform
+            focuses on simplicity and ease of use, providing a clean layout that enhances user engagement. With
+            thoughtfully
+            designed interactions, responsive layouts, and attention to visual hierarchy, FriendZone offers a seamless
+            social
+            experience while maintaining aesthetic appeal across devices.</p>
+
+          <p><strong>Tech Used:</strong> HTML, Figma, CSS, JavaScript, </p>
+        </div>
+      </div>
+
+      <div class="project-item reverse">
+        <div class="project-image carousel">
+          <div class="carousel-images">
+            <img src="assets/Threatscope1.png" alt="Threatscope Image 1">
+            <img src="assets/Threatscope2.png" alt="Threatscope Image 2">
+            <img src="assets/Threatscope3.png" alt="Threatscope Image 3">
+          </div>
+          <button class="carousel-btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-btn next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="project-desc">
+          <h3>ThreatScope</h3>
+          <p>
+          <p>A privacy-first log analysis platform built with a focus on cybersecurity and usability. ThreatScope helps
+            users quickly identify potential security threats through a clean, intuitive interface while maintaining
+            data privacy. The platform emphasizes functional design and responsive layouts to ensure smooth user
+            experience across devices, making it both practical and visually appealing.</p>
+          </p>
+          <p><strong>Tech Used:</strong> HTML, CSS, JavaScript, Node.js, MongoDB</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <h4>Amritanshu Kumar</h4>
+        <p>Thank you for visiting my portfolio! I’m open to collaborations and creative projects.</p>
+        <div class="socials">
+          <a href="https://linkedin.com/in/amritanshu--kumar"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Amritanshu-404"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="contact">
+        <p><i class="fa-solid fa-envelope"></i> amritanshukumarpatel456@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +91 6200831673</p>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Amritanshu Kumar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
